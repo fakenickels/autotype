@@ -1,0 +1,35 @@
+{
+	"name": "autotype",
+	"title": "jQuery autotype",
+	"description": "Simulate a type of user in any DOM element.",
+	"keywords": [
+		"jquery",
+		"autotype",
+		"plugins"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Gabriel Rubens",
+		"email": "grsabreu@gmail.com",
+		"url": "https://github.com/grsabreu"
+	},
+	"maintainers": [
+		{
+			"name": "Gabriel Rubens",
+			"email": "grsabreu@gmail.com",
+			"url": "https://github.com/grsabreu"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+	"homepage": "https://github.com/grsabreu/autotype",
+	"bugs": "https://github.com/grsabreu/autotype/issues",
+	"docs": "https://github.com/grsabreu/autotype#readme",
+	"download": "https://github.com/grsabreu/autotype/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=2.0.3"
+	}
+}

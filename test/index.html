@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery autotype</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="../src/jquery.autotype.js"></script>
+	</head>
+	<body>
+		<a href="#" id='test'>Test</a>
+		<h1></h1>
+		<p></p>
+		<p></p>
+		<input>
+		<script>
+			$('#test').click(function(){
+				$('p,h1').autotype('Typing in multiples elements', { delay: 30, callback: function(){
+				 $('input').autotype('Typing in an input', { form: true });
+				}});			
+			});
+		</script>
+	</body>
+</html>
